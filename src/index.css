@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  font-family: 'Heebo', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+input, button, textarea, select {
+  font-family: 'Heebo', sans-serif;
+}
